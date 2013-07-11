@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <spu_intrinsics.h>
+
+int main() {
+  int i = 0;
+  vec_float4 a = (vec_float4) {1.0f, 2.0f, 0.0f, -1.0f};
+  vec_float4 b = spu_rsqrte(a);
+  float *c = (float *)&b;
+
+  for (i = 0; i < 4; i ++)
+    printf("%f ", c[i]);
+
+  puts("");
+  return 0;
+}

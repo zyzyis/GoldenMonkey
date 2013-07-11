@@ -1,0 +1,80 @@
+<scene resx="1280" resy="720" nspu="1" spp="1" accel="simple" camera="perspective" jobber="cell" rays_per_job="1024" max_ray_round="2" simd="1">
+<sphere>
+    <point>0 6 0</point>
+    <radius>1</radius>
+    <material>
+      <color>1.0 0.0 0.0</color>
+      <diffuse>0.7</diffuse>
+      <specular>0.2</specular>
+      <reflection>0.1</reflection>
+    </material>
+  </sphere>
+
+<sphere>
+    <point>-1 2 0</point>
+    <radius>1</radius>
+    <material>
+      <color>0 1.0 0.0</color>
+      <diffuse>0.7</diffuse>
+      <specular>0.2</specular>
+      <reflection>0.1</reflection>
+    </material>
+  </sphere>
+
+  <sphere>
+    <point>2 4 1</point>
+    <radius>1</radius>
+    <material>
+      <color>0.0 0.0 1.0</color>
+      <diffuse>0.7</diffuse>
+      <specular>0.2</specular>
+      <reflection>0.1</reflection>
+    </material>
+  </sphere>
+
+  <sphere>
+    <point>6 6 -3</point>
+    <radius>1</radius>
+    <material>
+      <color>0.0 1.0 1.0</color>
+      <diffuse>0.9</diffuse>
+      <specular>0.1</specular>
+      <reflection>0.1</reflection>
+    </material>
+  </sphere>
+
+  <plane>
+    <point0>-8 -1 4</point0>
+    <point1>8 -1 4</point1>
+    <point2>8 -1 -4</point2>
+    <material>
+      <color>1 1 1</color>
+      <diffuse>1.0</diffuse>
+      <specular>0.0</specular>
+      <reflection>0</reflection>
+    </material>
+  </plane>
+
+  <light>
+    <point>3 9 0</point>
+    <intensity>50</intensity>
+  </light>
+
+  <light>
+    <point>2 9 2</point>
+    <intensity>70</intensity>
+  </light>
+  
+  <camera>
+    <point>0 7 3</point>
+    <lookat>0 -1 -1</lookat>
+    <up>0 1 0</up>
+    <left>-3.2</left>
+    <right>3.2</right>
+    <top>2.4</top>
+    <bottom>-2.4</bottom>
+    <near>0</near>
+    <far>10</far>
+  </camera>
+
+</scene>

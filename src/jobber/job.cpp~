@@ -1,0 +1,7 @@
+#include "job.hpp"
+
+
+namespace GM {
+  bool Job::isJobInitialized = false;
+}
+	    

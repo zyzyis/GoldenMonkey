@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="18"
+   name=""
+   committed-date="2007-06-06T16:53:52.259000Z"
+   url="svn+ssh://root@145.116.237.50/opt/CELL/raytracer/bin"
+   last-author="root"
+   kind="dir"
+   uuid="298530a4-ca31-0410-ad5f-a77c859f19bc"
+   repos="svn+ssh://root@145.116.237.50/opt/CELL"
+   revision="29"/>
+</wc-entries>
